@@ -1,0 +1,45 @@
+#Suggestions from chat; double check
+#Basically, these list files you don't want git to track as you update the project (large input files, intermediate files, etc.)
+
+######################
+# logs
+######################
+*.log
+*.out
+*.err
+
+######################
+# intermediate data
+######################
+*.fastq
+*.fq
+*.fasta
+*.fa
+*.bam
+*.sam
+*.tmp
+
+######################
+# compressed files
+######################
+*.gz
+*.zip
+*.tar
+*.bz2
+
+######################
+# HPC / SLURM outputs
+######################
+slurm-*.out
+
+######################
+# OS files
+######################
+.DS_Store
+Thumbs.db
+
+######################
+# Python cache
+######################
+__pycache__/
+*.pyc

@@ -2,6 +2,12 @@
 #Basically, these list files you don't want git to track as you update the project (large input files, intermediate files, etc.)
 
 ######################
+# environment variables
+######################
+*.env
+
+
+######################
 # logs
 ######################
 *.log
